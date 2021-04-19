@@ -15,10 +15,18 @@
 header {
   height: 60px;
   background-color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
 }
 
 ul > li {
     display: inline-block;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+    padding: 5px;
 }
 
 .hero {
@@ -26,6 +34,12 @@ ul > li {
     background-color: rgb(41, 41, 41);
 }
 
-.container {
+.call-to-action {
+    height: 300px;
+    width: 400px;
+    background-color: gray;
+}
 
+.container {
+    max-width: 1366px;
 }
